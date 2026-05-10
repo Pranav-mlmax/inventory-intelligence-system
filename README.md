@@ -1,4 +1,4 @@
-# 📦 Smart Inventory Intelligence System
+#  Smart Inventory Intelligence System
 
 > **Demand Forecasting · Stockout Risk Classification · Sentiment NLP · AI-Powered Recommendations**
 
@@ -6,7 +6,7 @@ A production-grade inventory analytics platform built on the Brazilian Olist E-C
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 ```bash
 streamlit run app.py
@@ -14,7 +14,7 @@ streamlit run app.py
 
 ---
 
-## 🧠 What It Does
+##  What It Does
 
 | Module | Tech | Business Value |
 |--------|------|----------------|
@@ -70,7 +70,7 @@ Required files:
 - `product_category_name_translation.csv`
 
 ### 4. Get an OpenRouter API key
-Sign up at [openrouter.ai](https://openrouter.ai) for free API access. The app uses `meta-llama/llama-3.1-8b-instruct` by default (very cheap).
+Sign up at [openrouter.ai](https://openrouter.ai) for free API access. The app uses `meta-llama/llama-3.1-8b-instruct` by default .
 
 ### 5. Run the app
 ```bash
@@ -81,34 +81,34 @@ Enter your OpenRouter API key in the sidebar, then click **Load & Analyze Data**
 
 ---
 
-## 📊 Dashboard Tabs
+##  Dashboard Tabs
 
-### 📈 Demand Forecast
+### Demand Forecast
 - Prophet-based weekly demand predictions per product category
 - Interactive forecast chart with confidence bands
 - Configurable forecast horizon (4–16 weeks)
 
-### ⚠️ Stockout Risk
+###  Stockout Risk
 - GradientBoosting classifier trained on 8-week rolling sales features
 - Risk tier breakdown: High / Medium / Low
 - SKU-level drill-down table with filtering
 
-### 💬 Sentiment Analysis
+###  Sentiment Analysis
 - VADER compound sentiment scoring on all customer reviews
 - Category-level sentiment aggregation and ranking
 - Weekly sentiment trend with review volume overlay
 
-### 🤖 AI Insights
+###  AI Insights
 - **Portfolio Executive Summary**: LLM-generated strategic overview across all categories
 - **Category Deep Dive**: Per-category recommendations synthesizing forecast + risk + sentiment
 
-### 🧪 Model Performance
+###  Model Performance
 - F1, Precision, Recall per risk class
 - Feature importance visualization
 
 ---
 
-## 🔑 Key Business Insights Unlocked
+##  Key Business Insights Unlocked
 
 1. **Velocity-based early warning**: SKUs with >7 units/week velocity but <7 days of stock are flagged as critical reorder targets before they stock out
 2. **Sentiment-demand correlation**: Categories where sentiment scores drop ahead of demand spikes may signal return surges or quality issues requiring supplier intervention
@@ -116,7 +116,7 @@ Enter your OpenRouter API key in the sidebar, then click **Load & Analyze Data**
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python 3.10+**
 - **Streamlit** — Interactive dashboard
@@ -129,7 +129,7 @@ Enter your OpenRouter API key in the sidebar, then click **Load & Analyze Data**
 
 ---
 
-## 📈 Model Details
+##  Model Details
 
 ### Demand Forecaster (Prophet)
 - Multiplicative seasonality model with yearly seasonality enabled
@@ -145,7 +145,7 @@ Enter your OpenRouter API key in the sidebar, then click **Load & Analyze Data**
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 PRs welcome. Ideas for extension:
 - Add SHAP explainability for individual SKU risk predictions
@@ -155,7 +155,7 @@ PRs welcome. Ideas for extension:
 
 ---
 
-## 📄 License
+## License
 
 MIT License. Dataset courtesy of [Olist](https://olist.com/) via Kaggle.
 
